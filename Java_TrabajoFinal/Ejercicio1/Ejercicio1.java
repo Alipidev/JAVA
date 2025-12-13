@@ -34,7 +34,7 @@ public class Ejercicio1 {
                 if(entrada % 1 !=0){
                     System.out.println("ERROR: El dato introducido no es un número entero y por tanto no es válido. Inténtelo de nuevo.");
                 }else{
-                    //Convertimos en número entero (int)
+                    //Convertimos en número entero(int)
                     return (int) entrada;
                 }
             } catch (NumberFormatException e) {
